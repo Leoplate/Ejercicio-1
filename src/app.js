@@ -16,6 +16,10 @@ app.get('/api',(req, res)=> {
     //res.json({mensaje:'hola mundo'}).status(200)
     res.json({mensaje:'Ines Diaz Alegria'}).status(200)
 });
+app.get('/api',(req, res)=> {
+    //res.json({mensaje:'hola mundo'}).status(200)
+    res.json({mensaje:'Argentina campeon del mundo 2022'}).status(200)
+});
 
 
 
